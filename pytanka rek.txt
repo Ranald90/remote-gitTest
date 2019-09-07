@@ -1,0 +1,81 @@
+Skip to end of metadata
+Created by Kamil Zasada (PGS Software), last modified by Bartosz Antonowicz (PGS Software) on Jan 10, 2019 Go to start of metadata
+Introduction – jakieś 10 min
+
+1.            Czym się zajmujesz.
+
+2.            Opowiedz o swoich projektach.
+
+3.            Dlaczego zdecydowałeś się na ścieżkę Angulara/React.
+
+3a.          Scrum - ogólnie.
+
+
+
+Technical part – jakieś 50 min
+
+4.            Praca z Gitem oraz jego dobry workflow. Polecenia commit, checkout, pull, push, merge, interaktywny rebase.
+
+5.            Code Review – w jaki sposób jest przeprowadzany. Przykład narzędzia i workflow (np. Na podstawie Git Laba i nowego Pull Requesta w repo).
+
+6.            Różnica między AngularJS a Angular 2+. - React a Angular/Vue czy coś jeszcze innego?
+
+7.            Czym się różni filtr z AngularJS od pipe’a w Angular 2+. - w React map? W sumie to czysty js
+
+8.            Przewaga Angulara 2+ nad AngularJs. - Przewaga React nad Angular/Vue?
+
+9.            Jak osadzić bezpiecznie 3rd partly library nienapisaną w Angularze (np. jQuery) w komponencie Angulara. Manipulowanie DOM-em przy pomocy np. jQuery wewnątrz Angulara – rozszerzyć temat. - npm i jQuery? import { co to potrzebujemy } from jQuery; ?
+
+10.          Angular Lifecycles – wymienić wszystkie hooki w kolejności. Które wywoływane są „once”, a które działają permanentnie w trakcie życia komponentu? - React Lifecycle method
+
+11.          Co to SPA. - Single Page App
+
+12.          Różnica między aplikacją statyczną a SPA. 
+
+13.          Plusy i minusy SPA w odniesieniu do aplikacji statycznej.
+
+14.          Typy wiązań w Angularze – wymienić i opisać. - Angular to MVC framework, binding to komunikacja między View a Model. React to tylko biblioteka do View, do obsługi Modelu może nam posłużyć Redux? Czy źle myślę?
+
+15.          Czym jest Observable i programowanie reaktywne. Subskrupcja (może coś się pojawić również na temat Subjectów). -RxJS
+
+16.          Observables vs Promises – zasadnicze różnice. - RxJS, uczyć się tej biblioteki? Czy w React możemy ją zastąpić QraphQL? Bo sam axios to raczej za mało.
+
+17.          Co zwraca Observable, a co Promise. - RxJS
+
+18.          Komunikacja między komponentami oraz serwisy (warto wspomnieć o NgRx i NgEffects – na pewno zaprocentuje) – Angular 2+. - W React propsy(wstecz Callback) lub Redux.
+
+19.          Komunikacja między controllerami w AngularJS - $scope, $rootScope, wstrzykiwanie zmiennej do customowej dyrektywy. Zalety w stosowaniu serwisów w interakcji między controllerami. - brak controllerów w React, coś może być tutaj?
+
+20.          Enkapsulacja widoków w Angularze – jak to działa, jakie daje korzyści. W oparciu o co działa (Shadow DOM). - chodzi o DRY i o HOC w React?
+
+21.          Znajomość Webpacka / konfiguracja.
+
+22.          Jak przeprowadzić deployment Angulara i otrzymać output z wynikiem. Pytanie o AOT i kompilera. - Create-React-App ? Czy bardziej pytanie o własne build skryptu do budle JS? Babeljs byłby odpowiedzią?
+
+23.          Sposoby na polepszenie performence’a w Angularze.
+
+24.          Narzędzia do badania performence’a.
+
+25.          Ogólne pytania o JavaScript w konktekście ES5, ES6 i TypeScript. Dziedziczenie (prototypowe vs klasyczne).
+
+26.          Unit Tests - ogólnie. Znajomość Jasmine jest na plus.
+
+27.          Czym się różni ngIf od hidden (Angular 2+) oraz ngIf od ngShow i ngHide (AngularJS). - to jakieś podchwytliwe pytanko? Bo Google ostrzega żeby nie używać hidden w Ng2? Jakie może być dla Reacta?
+
+28.          Biblioteka Ngx-bootstrap - ogólnie.
+
+
+
+---
+
+Jakie używałem dotąd system kontroli wersji – oczywiście GIT.
+Mini-case do rozwiązania – Pull request zostaje odrzucony. Co robisz?
+Różnice między ES5 a ES6
+Css – positioning – typy i krótki opis każdego
+CSS3 vs poprzednie
+Różnice między AngularJS a Angular – podstawowe i nie męczyli mnie za bardzo jak powiedziałem 1 najbardziej znaczącą – JS vs. TS
+Lifecycle hooks – wymienić, powiedzieć która pojawia się na zmianę parametrów i które są jednorazowe.
+Co to jest obseravable i jak stworzyć swoją własną obseravable.
+View encapsulation  - co to takiego ?
+SPA – co to jest – jakie zalety i wady?
+Unit testy – Frameworki i doświadczenia z nimi
