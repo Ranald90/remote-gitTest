@@ -1,0 +1,99 @@
+HTML
+1. How can you add fallback support for browsers that do not implement the audio element? A: Add markup inside the <audio> element
+2. There is no stop method available in the media player. Which approach would you use to implement a "stop" behavior? A: Pause the video and set currentTime to 0
+3. All of the following are semantic HTML5 elements EXCEPT: <div>
+4. Which of the following is not accessible from a Web Worker? Document Object Model (DOM)
+5. Media formats supported by the HTML audio and video elements without help from 3rd party components include all of the following EXCEPT: QuickTime
+6. The action attribute in a <form> element: specifies the URL of the service that will handle the submitted data.
+7. Which element can be used inside a <details> element? <summary>
+8. Which element would you use in the <HEAD> to set the document character encoding to UTF-8? A: <meta charset="utf-8">
+9. Which conditional statement helps determine whether the HTML5 Geolocation API is available on the user's device? if (navigator.geolocation)
+10. Which enctype value do you use in a file input type that allows a user to upload a file to a server via a form? multipart/form-data
+11. How would you implement a drag source to accept dropped files from the operating system? Handle the dropped event and look and inspect the event argument for dataTransfer.types that equal Files.
+12. Which method allows browser access to a device's camera and microphone? navigator.mediaDevices.getUserMedia()
+13. Which element creates a multi-line text element in an HTML5 form? <textarea>words</textarea>
+14. Which video format was designed specifically for serving video on the web? WebM
+15. The getCurrentPosition() returns an object on success. All of these properties are guaranteed to be provided as part of the object EXCEPT: timestamp
+16. How do you provide fallback content for browsers that do not support the <video> element? Add markup inside the <video> element
+
+PGS
+Skip to end of metadata
+Created by Kamil Zasada (PGS Software), last modified by Bartosz Antonowicz (PGS Software) on Jan 10, 2019 Go to start of metadata
+Introduction – jakieś 10 min
+
+1.            Czym się zajmujesz. - Elektromonter
+ 
+2.            Opowiedz o swoich projektach. - Projektach komercyjnych, reactowych?
+
+3.            Dlaczego zdecydowałeś się na ścieżkę Angulara(React) - Największa swoboda w doborze narzędzi, najlepszy framework aktualnie dla js na rynku, komponenty najlepsze pisanie , pisanie tylko w js, renderowanie, stabilny kod, przyjazny dla seo, react native dla mobilek, easy-to-learn / hard-to-master, mocno wspierany przez fb, duza community
+
+3a.          Scrum - ogólnie. https://mfiles.pl/pl/index.php/Metodyka_SCRUM, zespół scrum: właściciel produktu, zespół deweloperski, mistrz scrum. Planowanie sprintu na podstawie produktu. Sprint 30 dni, codzienny scrum czyli co zrobiles dla sprintu, co zrobisz, jakie przeszkody. Przeglad sprintu
+
+
+Technical part – jakieś 50 min
+
+4.            Praca z Gitem oraz jego dobry workflow. Polecenia commit, checkout, pull, push, merge, interaktywny rebase.
+
+5.            Code Review – w jaki sposób jest przeprowadzany. Przykład narzędzia i workflow (np. Na podstawie Git Laba i nowego Pull Requesta w repo).
+
+6.            Różnica między AngularJS a Angular 2+.
+
+7.            Czym się różni filtr z AngularJS od pipe’a w Angular 2+.
+
+8.            Przewaga Angulara 2+ nad AngularJs.
+
+9.            Jak osadzić bezpiecznie 3rd partly library nienapisaną w Angularze (np. jQuery) w komponencie Angulara. Manipulowanie DOM-em przy pomocy np. jQuery wewnątrz Angulara – rozszerzyć temat.
+
+10.          Angular Lifecycles – wymienić wszystkie hooki w kolejności. Które wywoływane są „once”, a które działają permanentnie w trakcie życia komponentu?
+
+11.          Co to SPA.
+
+12.          Różnica między aplikacją statyczną a SPA.
+
+13.          Plusy i minusy SPA w odniesieniu do aplikacji statycznej.
+
+14.          Typy wiązań w Angularze – wymienić i opisać.
+
+15.          Czym jest Observable i programowanie reaktywne. Subskrupcja (może coś się pojawić również na temat Subjectów).
+
+16.          Observables vs Promises – zasadnicze różnice.
+
+17.          Co zwraca Observable, a co Promise.
+
+18.          Komunikacja między komponentami oraz serwisy (warto wspomnieć o NgRx i NgEffects – na pewno zaprocentuje) – Angular 2+.
+
+19.          Komunikacja między controllerami w AngularJS - $scope, $rootScope, wstrzykiwanie zmiennej do customowej dyrektywy. Zalety w stosowaniu serwisów w interakcji między controllerami.
+
+20.          Enkapsulacja widoków w Angularze – jak to działa, jakie daje korzyści. W oparciu o co działa (Shadow DOM).
+
+21.          Znajomość Webpacka / konfiguracja.
+
+22.          Jak przeprowadzić deployment Angulara i otrzymać output z wynikiem. Pytanie o AOT i kompilera.
+
+23.          Sposoby na polepszenie performence’a w Angularze.
+
+24.          Narzędzia do badania performence’a.
+
+25.          Ogólne pytania o JavaScript w konktekście ES5, ES6 i TypeScript. Dziedziczenie (prototypowe vs klasyczne).
+
+26.          Unit Tests - ogólnie. Znajomość Jasmine jest na plus.
+
+27.          Czym się różni ngIf od hidden (Angular 2+) oraz ngIf od ngShow i ngHide (AngularJS).
+
+28.          Biblioteka Ngx-bootstrap - ogólnie.
+
+
+
+---
+
+Jakie używałem dotąd system kontroli wersji – oczywiście GIT.
+Mini-case do rozwiązania – Pull request zostaje odrzucony. Co robisz?
+Różnice między ES5 a ES6
+Css – positioning – typy i krótki opis każdego
+CSS3 vs poprzednie
+Różnice między AngularJS a Angular – podstawowe i nie męczyli mnie za bardzo jak powiedziałem 1 najbardziej znaczącą – JS vs. TS
+Lifecycle hooks – wymienić, powiedzieć która pojawia się na zmianę parametrów i które są jednorazowe.
+Co to jest obseravable i jak stworzyć swoją własną obseravable.
+View encapsulation  - co to takiego ?
+SPA – co to jest – jakie zalety i wady?
+Unit testy – Frameworki i doświadczenia z nimi
